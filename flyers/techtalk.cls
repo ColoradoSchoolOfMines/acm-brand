@@ -44,11 +44,11 @@
             \includegraphics[height=1.3in]{\@companylogo}
             \section*{\@talktitle}
             \subsection*{\@speakername}
-            \vspace{2cm}
 
             \vfill\null
+            \includegraphics[width=2in]{../resources/CS@Mines.png}
             \columnbreak
-            \null\vfill
+            \null\vspace*{1cm}
 
             \section*{ACM Tech Talk Tuesday}
             \subsection*{\@talkdate}
@@ -60,6 +60,7 @@
             \includegraphics[width=2in]{../resources/pizza.png}
 
             \vfill\null
+            \includegraphics[width=2in]{../resources/CS@Mines.png}
         \end{center}
     \end{multicols*}
 }
@@ -85,7 +86,7 @@
 \RequirePackage{graphicx}
 \pagestyle{fancy}
 \fancyhead[L]{\hspace{0.5cm}\includegraphics[width=4in]{../../logo/triangle/full.pdf}}
-\fancyhead[R]{\includegraphics[width=5in]{../resources/mines.jpg}\vspace{0.3in}\hspace{0.5cm}}
+\fancyhead[R]{\includegraphics[width=5in]{../resources/cs.png}\vspace{0.2in}\hspace{0.5cm}}
 \renewcommand{\headrulewidth}{0pt}
 
 \RequirePackage{parskip} % Remove paragraph indentation
@@ -93,3 +94,7 @@
 % Multiple columns by default
 \RequirePackage{multicol}
 \setlength{\columnseprule}{1pt}
+
+% Font
+\RequirePackage{fontspec}
+% \setmainfont{Iosevka}
