@@ -46,7 +46,8 @@
             \subsection*{\@speakername}
 
             \vfill\null
-            \includegraphics[width=2in]{../resources/CS@Mines.png}
+            \includegraphics[width=2in]{../resources/cmapp.png}
+            \vspace*{0.5cm}
             \columnbreak
             \null\vspace*{1cm}
 
