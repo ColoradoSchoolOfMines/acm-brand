@@ -98,4 +98,4 @@
 
 % Font
 \RequirePackage{fontspec}
-% \setmainfont{Iosevka}
+\setmainfont{Gotham Medium}
